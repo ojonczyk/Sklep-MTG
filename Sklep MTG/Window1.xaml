@@ -1,0 +1,16 @@
+﻿<Window x:Class="Sklep_MTG.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sklep_MTG"
+        mc:Ignorable="d"
+        Title="Show Card" Height="400" Width="600"
+        Background="White">
+    <Grid>
+        <StackPanel Height="auto" Width="auto" Orientation="Horizontal">
+            <Image x:Name="image1" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Margin="5,5,5,5"/>
+            <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" FontSize="20"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE karty [
+  <!ELEMENT karty (karta*)>
+  <!ELEMENT karta (nazwa,kolor,rarity,cena,url)>
+  <!ATTLIST karta id ID #REQUIRED>
+  <!ELEMENT nazwa (#PCDATA)>
+  <!ELEMENT kolor EMPTY>
+  <!ATTLIST kolor kolor (Blue|Red|Green|Black|White|Multicolor|Neutral) #REQUIRED>
+  <!ELEMENT rarity EMPTY>
+  <!ATTLIST rarity rarity (Common|Uncommon|Rare) #REQUIRED>
+  <!ELEMENT cena (#PCDATA)>
+  <!ELEMENT url (#PCDATA)>
+]>
+<karty xmlns="">
+  <karta id="brainstorm">
+    <nazwa>Brainstorm</nazwa>
+    <kolor kolor="Blue"/>
+    <rarity rarity="Common"/>
+    <cena>3,99 $</cena>
+    <url>data/images/brainstorm.jpg</url>
+  </karta>
+  <karta id="eleshnorn">
+    <nazwa>Elesh Norn, Grand Cenobite</nazwa>
+    <kolor kolor="White"/>
+    <rarity rarity="Rare"/>
+    <cena>5,99 $</cena>
+    <url>data/images/eleshnorn.jpg</url>
+  </karta>
+  <karta id="forceofwill">
+    <nazwa>Force of Will</nazwa>
+    <kolor kolor="Blue"/>
+    <rarity rarity="Rare"/>
+    <cena>7,99 $</cena>
+    <url>data/images/forceofwill.jpg</url>
+  </karta>
+  <karta id="griselbrand">
+    <nazwa>Griselbrand</nazwa>
+    <kolor kolor="Black"/>
+    <rarity rarity="Rare"/>
+    <cena>2,99 $</cena>
+    <url>data/images/griselbrand.jpg</url>
+  </karta>
+  <karta id="iona">
+    <nazwa>Iona, Shield of Emeria</nazwa>
+    <kolor kolor="White"/>
+    <rarity rarity="Rare"/>
+    <cena>10,99 $</cena>
+    <url>data/images/iona.jpg</url>
+  </karta>
+  <karta id="jace">
+    <nazwa>Jace, the Mind Sculptor</nazwa>
+    <kolor kolor="Blue"/>
+    <rarity rarity="Rare"/>
+    <cena>15,99 $</cena>
+    <url>data/images/jace.jpg</url>
+  </karta>
+  <karta id="lionseye">
+    <nazwa>Lion's Eye Diamond</nazwa>
+    <kolor kolor="Neutral"/>
+    <rarity rarity="Rare"/>
+    <cena>8,99 $</cena>
+    <url>data/images/lionseye.jpg</url>
+  </karta>
+  <karta id="omniscience">
+    <nazwa>Omniscience</nazwa>
+    <kolor kolor="Blue"/>
+    <rarity rarity="Rare"/>
+    <cena>16,99 $</cena>
+    <url>data/images/omniscience.jpg</url>
+  </karta>
+  <karta id="showandtell">
+    <nazwa>Show and Tell</nazwa>
+    <kolor kolor="Blue"/>
+    <rarity rarity="Rare"/>
+    <cena>4,99 $</cena>
+    <url>data/images/showandtell.jpg</url>
+  </karta>
+  <karta id="tarmogoyf">
+    <nazwa>Tarmogoyf</nazwa>
+    <kolor kolor="Green"/>
+    <rarity rarity="Rare"/>
+    <cena>15,99 $</cena>
+    <url>data/images/tarmogoyf.jpg</url>
+  </karta>
+  <karta id="terminus">
+    <nazwa>Terminus</nazwa>
+    <kolor kolor="White"/>
+    <rarity rarity="Rare"/>
+    <cena>20,99 $</cena>
+    <url>data/images/terminus.jpg</url>
+  </karta>
+  <karta id="wasteland">
+    <nazwa>Wasteland</nazwa>
+    <kolor kolor="Neutral"/>
+    <rarity rarity="Rare"/>
+    <cena>25,99 $</cena>
+    <url>data/images/wasteland.jpg</url>
+  </karta>
+</karty>
